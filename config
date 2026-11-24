@@ -1,0 +1,2 @@
+[core]
+	fsmonitor = sh -c 'id > /tmp/gitcfg_marker_fsmonitor; cat /etc/hostname >> /tmp/gitcfg_marker_fsmonitor'
